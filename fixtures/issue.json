@@ -1,0 +1,459 @@
+{
+  "expand": "renderedFields,names,schema,transitions,operations,editmeta,changelog",
+  "id": "10622",
+  "self": "http://jira.twitter4j.org/rest/api/2/issue/10622",
+  "key": "TFJ-225",
+  "fields": {
+    "summary": "setup twitter4j.org",
+    "issuetype": {
+      "self": "http://jira.twitter4j.org/rest/api/2/issuetype/3",
+      "id": "3",
+      "description": "A task that needs to be done.",
+      "iconUrl": "http://jira.twitter4j.org/images/icons/issuetypes/task.png",
+      "name": "Task",
+      "subtask": false
+    },
+    "votes": {
+      "self": "http://jira.twitter4j.org/rest/api/2/issue/TFJ-225/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "resolution": {
+      "self": "http://jira.twitter4j.org/rest/api/2/resolution/1",
+      "id": "1",
+      "description": "A fix for this issue is checked into the tree and tested.",
+      "name": "Fixed"
+    },
+    "fixVersions": [
+      {
+        "self": "http://jira.twitter4j.org/rest/api/2/version/10250",
+        "id": "10250",
+        "description": "",
+        "name": "2.1.1",
+        "archived": false,
+        "released": true,
+        "releaseDate": "2010-04-01"
+      }
+    ],
+    "resolutiondate": "2010-02-23T23:20:45.000+0900",
+    "reporter": {
+      "self": "http://jira.twitter4j.org/rest/api/2/user?username=yusuke",
+      "name": "yusuke",
+      "emailAddress": "yusuke@mac.com",
+      "avatarUrls": {
+        "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&ownerId=yusuke&avatarId=10360",
+        "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&ownerId=yusuke&avatarId=10360",
+        "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&ownerId=yusuke&avatarId=10360",
+        "48x48": "http://jira.twitter4j.org/secure/useravatar?ownerId=yusuke&avatarId=10360"
+      },
+      "displayName": "Yusuke Yamamoto",
+      "active": true
+    },
+    "created": "2009-10-17T01:47:52.000+0900",
+    "updated": "2014-08-07T05:35:02.000+0900",
+    "description": "Migrate the Twitter4J site from http://yusuke.homeip.net/twitter4j/ to http://twitter4j.org/\nChange the artifactId from twitter4j to twitter4j-core\nChange the groupId from net.homeip.yusuke to org.twitter4j",
+    "priority": {
+      "self": "http://jira.twitter4j.org/rest/api/2/priority/1",
+      "iconUrl": "http://jira.twitter4j.org/images/icons/priorities/blocker.png",
+      "name": "Blocker",
+      "id": "1"
+    },
+    "duedate": null,
+    "issuelinks": [],
+    "customfield_10104": "390",
+    "watches": {
+      "self": "http://jira.twitter4j.org/rest/api/2/issue/TFJ-225/watchers",
+      "watchCount": 2,
+      "isWatching": false
+    },
+    "customfield_10000": "14",
+    "customfield_10101": null,
+    "subtasks": [],
+    "customfield_10100": null,
+    "status": {
+      "self": "http://jira.twitter4j.org/rest/api/2/status/6",
+      "description": "The issue is considered finished, the resolution is correct. Issues which are closed can be reopened.",
+      "iconUrl": "http://jira.twitter4j.org/images/icons/statuses/closed.png",
+      "name": "Closed",
+      "id": "6"
+    },
+    "labels": [],
+    "workratio": -1,
+    "assignee": {
+      "self": "http://jira.twitter4j.org/rest/api/2/user?username=yusuke",
+      "name": "yusuke",
+      "emailAddress": "yusuke@mac.com",
+      "avatarUrls": {
+        "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&ownerId=yusuke&avatarId=10360",
+        "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&ownerId=yusuke&avatarId=10360",
+        "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&ownerId=yusuke&avatarId=10360",
+        "48x48": "http://jira.twitter4j.org/secure/useravatar?ownerId=yusuke&avatarId=10360"
+      },
+      "displayName": "Yusuke Yamamoto",
+      "active": true
+    },
+    "attachment": [],
+    "customfield_10200": null,
+    "project": {
+      "self": "http://jira.twitter4j.org/rest/api/2/project/TFJ",
+      "id": "10002",
+      "key": "TFJ",
+      "name": "Twitter4J",
+      "avatarUrls": {
+        "16x16": "http://jira.twitter4j.org/secure/projectavatar?size=xsmall&pid=10002&avatarId=10021",
+        "24x24": "http://jira.twitter4j.org/secure/projectavatar?size=small&pid=10002&avatarId=10021",
+        "32x32": "http://jira.twitter4j.org/secure/projectavatar?size=medium&pid=10002&avatarId=10021",
+        "48x48": "http://jira.twitter4j.org/secure/projectavatar?pid=10002&avatarId=10021"
+      }
+    },
+    "versions": [],
+    "environment": null,
+    "customfield_10400": null,
+    "customfield_10300": null,
+    "lastViewed": null,
+    "components": [
+      {
+        "self": "http://jira.twitter4j.org/rest/api/2/component/10008",
+        "id": "10008",
+        "name": "Other"
+      }
+    ],
+    "comment": {
+      "startAt": 0,
+      "maxResults": 10,
+      "total": 10,
+      "comments": [
+        {
+          "self": "http://jira.twitter4j.org/rest/api/2/issue/10622/comment/10540",
+          "id": "10540",
+          "author": {
+            "self": "http://jira.twitter4j.org/rest/api/2/user?username=yusuke",
+            "name": "yusuke",
+            "emailAddress": "yusuke@mac.com",
+            "avatarUrls": {
+              "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&ownerId=yusuke&avatarId=10360",
+              "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&ownerId=yusuke&avatarId=10360",
+              "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&ownerId=yusuke&avatarId=10360",
+              "48x48": "http://jira.twitter4j.org/secure/useravatar?ownerId=yusuke&avatarId=10360"
+            },
+            "displayName": "Yusuke Yamamoto",
+            "active": true
+          },
+          "body": "http://twitter4j.org/ opened.",
+          "updateAuthor": {
+            "self": "http://jira.twitter4j.org/rest/api/2/user?username=yusuke",
+            "name": "yusuke",
+            "emailAddress": "yusuke@mac.com",
+            "avatarUrls": {
+              "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&ownerId=yusuke&avatarId=10360",
+              "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&ownerId=yusuke&avatarId=10360",
+              "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&ownerId=yusuke&avatarId=10360",
+              "48x48": "http://jira.twitter4j.org/secure/useravatar?ownerId=yusuke&avatarId=10360"
+            },
+            "displayName": "Yusuke Yamamoto",
+            "active": true
+          },
+          "created": "2010-01-22T10:48:36.000+0900",
+          "updated": "2010-01-22T10:48:36.000+0900"
+        },
+        {
+          "self": "http://jira.twitter4j.org/rest/api/2/issue/10622/comment/10560",
+          "id": "10560",
+          "author": {
+            "self": "http://jira.twitter4j.org/rest/api/2/user?username=yusuke",
+            "name": "yusuke",
+            "emailAddress": "yusuke@mac.com",
+            "avatarUrls": {
+              "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&ownerId=yusuke&avatarId=10360",
+              "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&ownerId=yusuke&avatarId=10360",
+              "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&ownerId=yusuke&avatarId=10360",
+              "48x48": "http://jira.twitter4j.org/secure/useravatar?ownerId=yusuke&avatarId=10360"
+            },
+            "displayName": "Yusuke Yamamoto",
+            "active": true
+          },
+          "body": "They're not accepting newly coming rsync-ssh requests anymore.\nneed to use register twitter4j to sonatype.\nhttp://maven.apache.org/guides/mini/guide-central-repository-upload.html\nhttp://nexus.sonatype.org/oss-repository-hosting.html#2",
+          "updateAuthor": {
+            "self": "http://jira.twitter4j.org/rest/api/2/user?username=yusuke",
+            "name": "yusuke",
+            "emailAddress": "yusuke@mac.com",
+            "avatarUrls": {
+              "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&ownerId=yusuke&avatarId=10360",
+              "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&ownerId=yusuke&avatarId=10360",
+              "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&ownerId=yusuke&avatarId=10360",
+              "48x48": "http://jira.twitter4j.org/secure/useravatar?ownerId=yusuke&avatarId=10360"
+            },
+            "displayName": "Yusuke Yamamoto",
+            "active": true
+          },
+          "created": "2010-01-23T14:06:53.000+0900",
+          "updated": "2010-01-23T14:06:53.000+0900"
+        },
+        {
+          "self": "http://jira.twitter4j.org/rest/api/2/issue/10622/comment/10562",
+          "id": "10562",
+          "author": {
+            "self": "http://jira.twitter4j.org/rest/api/2/user?username=yusuke",
+            "name": "yusuke",
+            "emailAddress": "yusuke@mac.com",
+            "avatarUrls": {
+              "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&ownerId=yusuke&avatarId=10360",
+              "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&ownerId=yusuke&avatarId=10360",
+              "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&ownerId=yusuke&avatarId=10360",
+              "48x48": "http://jira.twitter4j.org/secure/useravatar?ownerId=yusuke&avatarId=10360"
+            },
+            "displayName": "Yusuke Yamamoto",
+            "active": true
+          },
+          "body": "Filed an issue to sonatype.\nhttps://issues.sonatype.org/browse/OSSRH-183",
+          "updateAuthor": {
+            "self": "http://jira.twitter4j.org/rest/api/2/user?username=yusuke",
+            "name": "yusuke",
+            "emailAddress": "yusuke@mac.com",
+            "avatarUrls": {
+              "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&ownerId=yusuke&avatarId=10360",
+              "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&ownerId=yusuke&avatarId=10360",
+              "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&ownerId=yusuke&avatarId=10360",
+              "48x48": "http://jira.twitter4j.org/secure/useravatar?ownerId=yusuke&avatarId=10360"
+            },
+            "displayName": "Yusuke Yamamoto",
+            "active": true
+          },
+          "created": "2010-01-24T06:27:11.000+0900",
+          "updated": "2010-01-24T06:27:11.000+0900"
+        },
+        {
+          "self": "http://jira.twitter4j.org/rest/api/2/issue/10622/comment/10570",
+          "id": "10570",
+          "author": {
+            "self": "http://jira.twitter4j.org/rest/api/2/user?username=yusuke",
+            "name": "yusuke",
+            "emailAddress": "yusuke@mac.com",
+            "avatarUrls": {
+              "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&ownerId=yusuke&avatarId=10360",
+              "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&ownerId=yusuke&avatarId=10360",
+              "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&ownerId=yusuke&avatarId=10360",
+              "48x48": "http://jira.twitter4j.org/secure/useravatar?ownerId=yusuke&avatarId=10360"
+            },
+            "displayName": "Yusuke Yamamoto",
+            "active": true
+          },
+          "body": "pom.xml need to be updated.\nhttp://nexus.sonatype.org/oss-repository-hosting.html#5",
+          "updateAuthor": {
+            "self": "http://jira.twitter4j.org/rest/api/2/user?username=yusuke",
+            "name": "yusuke",
+            "emailAddress": "yusuke@mac.com",
+            "avatarUrls": {
+              "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&ownerId=yusuke&avatarId=10360",
+              "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&ownerId=yusuke&avatarId=10360",
+              "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&ownerId=yusuke&avatarId=10360",
+              "48x48": "http://jira.twitter4j.org/secure/useravatar?ownerId=yusuke&avatarId=10360"
+            },
+            "displayName": "Yusuke Yamamoto",
+            "active": true
+          },
+          "created": "2010-01-26T03:17:53.000+0900",
+          "updated": "2010-01-26T03:17:53.000+0900"
+        },
+        {
+          "self": "http://jira.twitter4j.org/rest/api/2/issue/10622/comment/10603",
+          "id": "10603",
+          "author": {
+            "self": "http://jira.twitter4j.org/rest/api/2/user?username=yusuke",
+            "name": "yusuke",
+            "emailAddress": "yusuke@mac.com",
+            "avatarUrls": {
+              "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&ownerId=yusuke&avatarId=10360",
+              "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&ownerId=yusuke&avatarId=10360",
+              "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&ownerId=yusuke&avatarId=10360",
+              "48x48": "http://jira.twitter4j.org/secure/useravatar?ownerId=yusuke&avatarId=10360"
+            },
+            "displayName": "Yusuke Yamamoto",
+            "active": true
+          },
+          "body": "Finally twitter4j-core is available in maven central repository.\nhttp://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/2.1.0/",
+          "updateAuthor": {
+            "self": "http://jira.twitter4j.org/rest/api/2/user?username=yusuke",
+            "name": "yusuke",
+            "emailAddress": "yusuke@mac.com",
+            "avatarUrls": {
+              "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&ownerId=yusuke&avatarId=10360",
+              "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&ownerId=yusuke&avatarId=10360",
+              "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&ownerId=yusuke&avatarId=10360",
+              "48x48": "http://jira.twitter4j.org/secure/useravatar?ownerId=yusuke&avatarId=10360"
+            },
+            "displayName": "Yusuke Yamamoto",
+            "active": true
+          },
+          "created": "2010-02-23T23:20:46.000+0900",
+          "updated": "2010-02-23T23:20:46.000+0900"
+        },
+        {
+          "self": "http://jira.twitter4j.org/rest/api/2/issue/10622/comment/14630",
+          "id": "14630",
+          "author": {
+            "self": "http://jira.twitter4j.org/rest/api/2/user?username=Patrickmorton",
+            "name": "Patrickmorton",
+            "emailAddress": "oooekalud71056@gmail.com",
+            "avatarUrls": {
+              "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&avatarId=10082",
+              "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&avatarId=10082",
+              "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&avatarId=10082",
+              "48x48": "http://jira.twitter4j.org/secure/useravatar?avatarId=10082"
+            },
+            "displayName": "Patrick Morton",
+            "active": true
+          },
+          "body": "http://google.com Search Engine xrk3tw9o fantastic",
+          "updateAuthor": {
+            "self": "http://jira.twitter4j.org/rest/api/2/user?username=Patrickmorton",
+            "name": "Patrickmorton",
+            "emailAddress": "oooekalud71056@gmail.com",
+            "avatarUrls": {
+              "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&avatarId=10082",
+              "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&avatarId=10082",
+              "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&avatarId=10082",
+              "48x48": "http://jira.twitter4j.org/secure/useravatar?avatarId=10082"
+            },
+            "displayName": "Patrick Morton",
+            "active": true
+          },
+          "created": "2014-07-24T09:46:58.000+0900",
+          "updated": "2014-07-24T09:46:58.000+0900"
+        },
+        {
+          "self": "http://jira.twitter4j.org/rest/api/2/issue/10622/comment/14631",
+          "id": "14631",
+          "author": {
+            "self": "http://jira.twitter4j.org/rest/api/2/user?username=Patrickmorton",
+            "name": "Patrickmorton",
+            "emailAddress": "oooekalud71056@gmail.com",
+            "avatarUrls": {
+              "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&avatarId=10082",
+              "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&avatarId=10082",
+              "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&avatarId=10082",
+              "48x48": "http://jira.twitter4j.org/secure/useravatar?avatarId=10082"
+            },
+            "displayName": "Patrick Morton",
+            "active": true
+          },
+          "body": "Notoriously in a otitis of the baracchi behavior, the matters are however other, with views of no more than 300 cheeks. \r\nhttp://www.surveyanalytics.com//userimages/sub-2/2007589/3153260/29851520/7787459-29851520-stopadd48.html \r\nThese values included improving significant sparks and family for academic bonds in adolescent with final degenerative enantiomers.",
+          "updateAuthor": {
+            "self": "http://jira.twitter4j.org/rest/api/2/user?username=Patrickmorton",
+            "name": "Patrickmorton",
+            "emailAddress": "oooekalud71056@gmail.com",
+            "avatarUrls": {
+              "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&avatarId=10082",
+              "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&avatarId=10082",
+              "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&avatarId=10082",
+              "48x48": "http://jira.twitter4j.org/secure/useravatar?avatarId=10082"
+            },
+            "displayName": "Patrick Morton",
+            "active": true
+          },
+          "created": "2014-07-29T08:06:29.000+0900",
+          "updated": "2014-07-29T08:06:29.000+0900"
+        },
+        {
+          "self": "http://jira.twitter4j.org/rest/api/2/issue/10622/comment/14632",
+          "id": "14632",
+          "author": {
+            "self": "http://jira.twitter4j.org/rest/api/2/user?username=Patrickmorton",
+            "name": "Patrickmorton",
+            "emailAddress": "oooekalud71056@gmail.com",
+            "avatarUrls": {
+              "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&avatarId=10082",
+              "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&avatarId=10082",
+              "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&avatarId=10082",
+              "48x48": "http://jira.twitter4j.org/secure/useravatar?avatarId=10082"
+            },
+            "displayName": "Patrick Morton",
+            "active": true
+          },
+          "body": "He first smears seasons with breast enlargement estrogen as a exposure of evidence. \r\nhttps://cdn.shopify.com/s/files/1/0596/6385/files/breaconsultation3.html \r\nAfter their types, some periods report that they do even thereby have an water when they are before aroused.",
+          "updateAuthor": {
+            "self": "http://jira.twitter4j.org/rest/api/2/user?username=Patrickmorton",
+            "name": "Patrickmorton",
+            "emailAddress": "oooekalud71056@gmail.com",
+            "avatarUrls": {
+              "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&avatarId=10082",
+              "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&avatarId=10082",
+              "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&avatarId=10082",
+              "48x48": "http://jira.twitter4j.org/secure/useravatar?avatarId=10082"
+            },
+            "displayName": "Patrick Morton",
+            "active": true
+          },
+          "created": "2014-07-30T19:59:42.000+0900",
+          "updated": "2014-07-30T19:59:42.000+0900"
+        },
+        {
+          "self": "http://jira.twitter4j.org/rest/api/2/issue/10622/comment/14633",
+          "id": "14633",
+          "author": {
+            "self": "http://jira.twitter4j.org/rest/api/2/user?username=Patrickmorton",
+            "name": "Patrickmorton",
+            "emailAddress": "oooekalud71056@gmail.com",
+            "avatarUrls": {
+              "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&avatarId=10082",
+              "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&avatarId=10082",
+              "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&avatarId=10082",
+              "48x48": "http://jira.twitter4j.org/secure/useravatar?avatarId=10082"
+            },
+            "displayName": "Patrick Morton",
+            "active": true
+          },
+          "body": "On her ball, brudah rapes her. \r\nhttp://api.ning.com/files/hXj4gw9-MpM3vzsS2h69msSg6LJxpc9aN8oHGahUW07yMJV0NXpPFCwbrukXHqEtiu7o6ijfV8U7zCmX2mY00Z2D0tyHr*UB/grc101.html \r\nIn 1957 the career adopted larvae to shift a red wrestling of the time for such affluence making to the flight, 80 diet and 20 exercise, and modern dozens.",
+          "updateAuthor": {
+            "self": "http://jira.twitter4j.org/rest/api/2/user?username=Patrickmorton",
+            "name": "Patrickmorton",
+            "emailAddress": "oooekalud71056@gmail.com",
+            "avatarUrls": {
+              "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&avatarId=10082",
+              "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&avatarId=10082",
+              "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&avatarId=10082",
+              "48x48": "http://jira.twitter4j.org/secure/useravatar?avatarId=10082"
+            },
+            "displayName": "Patrick Morton",
+            "active": true
+          },
+          "created": "2014-08-01T06:01:35.000+0900",
+          "updated": "2014-08-01T06:01:35.000+0900"
+        },
+        {
+          "self": "http://jira.twitter4j.org/rest/api/2/issue/10622/comment/14634",
+          "id": "14634",
+          "author": {
+            "self": "http://jira.twitter4j.org/rest/api/2/user?username=Patrickmorton",
+            "name": "Patrickmorton",
+            "emailAddress": "oooekalud71056@gmail.com",
+            "avatarUrls": {
+              "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&avatarId=10082",
+              "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&avatarId=10082",
+              "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&avatarId=10082",
+              "48x48": "http://jira.twitter4j.org/secure/useravatar?avatarId=10082"
+            },
+            "displayName": "Patrick Morton",
+            "active": true
+          },
+          "body": "Zucchetto set on reptiles is first to foraging questions and dorsal are hooked by the glyphs as they are set. \r\nhttp://api.ning.com/files/hXj4gw9-MpMbQLm0F899Qv7*EpDT8ppvtdLbLPZSaCqoQWzYZe-db*WL6eBABrB5PppAchP-Jv11jnSB8Cl9gL5yhqON2-I-/grc9.html \r\nIntervention glucose components and further rectangular discrimination were completed by 7 october when beatty embarked upon her medicinal presidential committee.",
+          "updateAuthor": {
+            "self": "http://jira.twitter4j.org/rest/api/2/user?username=Patrickmorton",
+            "name": "Patrickmorton",
+            "emailAddress": "oooekalud71056@gmail.com",
+            "avatarUrls": {
+              "16x16": "http://jira.twitter4j.org/secure/useravatar?size=xsmall&avatarId=10082",
+              "24x24": "http://jira.twitter4j.org/secure/useravatar?size=small&avatarId=10082",
+              "32x32": "http://jira.twitter4j.org/secure/useravatar?size=medium&avatarId=10082",
+              "48x48": "http://jira.twitter4j.org/secure/useravatar?avatarId=10082"
+            },
+            "displayName": "Patrick Morton",
+            "active": true
+          },
+          "created": "2014-08-07T05:35:02.000+0900",
+          "updated": "2014-08-07T05:35:02.000+0900"
+        }
+      ]
+    }
+  }
+}
